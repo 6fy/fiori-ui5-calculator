@@ -1,0 +1,37 @@
+<mvc:View
+        controllerName="com.myorg.leanFiori.controller.Calculator"
+        displayBlock="true"
+        xmlns="sap.m"
+        xmlns:mvc="sap.ui.core.mvc">
+
+    <Page title="Calculator">
+        <content>
+            <input id="calculatorScreen" type="Text" placeholder="0" />
+            <HBox>
+                <Button  text="7" press="onPress" />
+                <Button text="8" press="onPress" />
+                <Button text="9" press="onPress" />
+                <Button text="+" press="onPress" />
+            </HBox>
+            <HBox>
+                <Button text="4" press="onPress" />
+                <Button text="5" press="onPress" />
+                <Button text="6" press="onPress" />
+                <Button text="-" press="onPress" />
+            </HBox>
+            <HBox>
+                <Button text="1" press="onPress" />
+                <Button text="2" press="onPress" />
+                <Button text="3" press="onPress" />
+                <Button text="*" press="onPress" />
+            </HBox>
+            <HBox>
+                <Button text="0" press="onPress" />
+                <Button text="c" press="onClear" />
+                <Button text="=" press="onCalculate" />
+                <Button text="/" press="onPress" />
+            </HBox>
+        </content>
+    </Page>
+
+</mvc:View>
